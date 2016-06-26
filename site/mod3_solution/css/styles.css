@@ -1,0 +1,83 @@
+/********** Base styles **********/
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  position: relative;
+}
+
+/** header **/
+#header-nav {
+  background-color: #f0f000;
+  border: 0;
+}
+.navbar-header {
+  position:relative;
+  padding: 25px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid red;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  /*margin-top: -30px;*/
+}
+
+.navbar-brand {
+  /*margin: 15px;*/
+}
+.navbar-brand h1 {
+  font-family: Gabriola, cursive;
+  font-size: 3em;
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+}
+#nav-list li {
+  width: 100%;
+  border: 1px;
+}
+
+
+h2 {
+  font-family: Gabriola, cursive;
+  font-size: 2em;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+.menu-content {
+  margin: 5px;
+  background-color: #f4f400;
+}
+
+/*  mobile (extra-small) */
+@media (max-width: 767px) {
+/*
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px ;
+    /*font-size: 5vw;*/
+  }
+*/
+  #collapsable-nav a {
+    font-size: 1.2em;
+    width: 100%;
+    border: 1px color: black;
+  }
+ }
